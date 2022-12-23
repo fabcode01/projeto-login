@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to top, #73b5e0, #9a9bee );
+    height: 95.3vh;
+    
+}
+
+.login-form{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: auto;
+    background-color: #e62e2e;
+    width: 80%;
+    height: 400px;
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.493);
+}
+
+.square-top{
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    margin: auto;
+    width: 80%;
+    background-color: aliceblue;
+
+    margin-top: 30px;
+    
+}
+
+.square-top > h1{
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+.square-top > #logo{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    
+   
+}
+
+main > h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    padding: 20px;
+}
+
+main > p{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 55%;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300px;
+}
+
+
+form{
+    
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+input{
+    
+    background-color: rgb(241, 240, 240);
+    border: solid transparent;
+    margin: 5px;
+    border-radius: 5px;
+    width: 80%;
+    height: 50px;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+label > span{
+    
+    color: rgb(233, 46, 46);
+  
+}
+
+
+#login-button{
+    color: aliceblue;
+    background-color: rgb(233, 46, 46);
+    margin: auto;
+    width: 100%;
+    transition: all 0.2s;
+}
+
+#login-button:hover{
+    background-color: rgb(179, 38, 38);
+}
