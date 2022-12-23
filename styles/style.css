@@ -12,7 +12,7 @@
 
 body{
     background-image: linear-gradient(to top, #73b5e0, #9a9bee );
-    height: 95.3vh;
+    
     
 }
 
@@ -21,21 +21,22 @@ body{
     border-bottom-right-radius: 15px;
     margin: auto;
     background-color: #e62e2e;
-    width: 80%;
-    height: 400px;
-    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.493);
+    width: 90%;
+    
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.288);
+    margin-bottom: 5px;
+    padding-bottom: 20px;
 }
-
 .square-top{
     
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     height: 200px;
     margin: auto;
-    width: 80%;
+    width: 90%;
     background-color: aliceblue;
 
-    margin-top: 30px;
+    margin-top: 20px;
     
 }
 
@@ -71,7 +72,7 @@ main > p{
     width: 55%;
     color: aliceblue;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: 300px;
 }
 
