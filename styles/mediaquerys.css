@@ -8,9 +8,52 @@ Tablet: 768 até 992px
 Desktops: 992px até 1200px
 Grandes telas: acima de 1200px */
 
+
+
 @media screen and (min-width: 768px){
-    .login-form, .square-top{
-        width: 700px;
+    .square-top{
+        position: relative;
+        bottom: 20px;
+        float: left;
+        width: 30%;
+        height: 105%;
+        border-bottom-left-radius: 50px;
+
+    }
+
+    form{
+        position: relative;
+        margin-right: 80px;
+        float: right;
+        width: 50%;
+        height: 50%;
+        
         
     }
+
+    p{
+        text-align: justify;
+        font-size: 1.3em;
+        position: relative;
+        left: 100px;
+    }
+    h3{
+        font-size: 1.7em;
+        position: relative;
+        left: 30px;
+    }
+
+    .login-form{
+        border-bottom-left-radius: 50px;
+    }
+
+    input{
+        height: 70px;
+        width: 90%;
+    }
+
+    .square-top{
+
+    }
+
 }

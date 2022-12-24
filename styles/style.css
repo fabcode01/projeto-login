@@ -11,6 +11,10 @@
 *{
     margin: 0;
     padding: 0;
+   box-sizing: border-box;
+   transform-style: flat;
+   
+
 }
 
 body{
@@ -20,27 +24,38 @@ body{
 }
 
 .login-form{
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    margin: auto;
+   
     background-color: #e62e2e;
     width: 90%;
-    
+    height: 600px;
     box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.288);
     margin-bottom: 5px;
     padding-bottom: 20px;
+    transition: all 1s;
+    transition-timing-function: ease;
+ 
 }
 .square-top{
     
+    display: block;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     height: 200px;
-    margin: auto;
-    width: 90%;
+   
+    width: 100%;
     background-color: aliceblue;
 
     margin-top: 20px;
+    transition: height 0.5s;
+    transition-timing-function: ease;
     
+   
 }
 
 .square-top > h1{
@@ -69,7 +84,7 @@ main > h3{
 }
 
 main > p{
-   
+    
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     width: 55%;
@@ -77,27 +92,29 @@ main > p{
     text-align: center;
     margin-bottom: 20px;
     font-weight: 300px;
+ 
 }
 
 
 form{
-    
-    padding: 10px;
+    display: block;
+    padding: 15px;
     border-radius: 10px;
     display: block;
-    width: 70%;
+    width: 80%;
     background-color: rgb(255, 255, 255);
     margin: auto;
+    
 }
 
 input{
-    
+    display: block;
     background-color: rgb(241, 240, 240);
     border: solid transparent;
     margin: 5px;
     border-radius: 5px;
-    width: 80%;
-    height: 50px;
+    width: 90%;
+    height: 60px;
     padding: 7px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -105,7 +122,7 @@ input{
 
 
 label > span{
-    
+    position: fixed;
     color: rgb(233, 46, 46);
   
 }
@@ -116,9 +133,10 @@ label > span{
     background-color: rgb(233, 46, 46);
     margin: auto;
     width: 100%;
-    transition: all 0.2s;
+   
 }
 
 #login-button:hover{
     background-color: rgb(179, 38, 38);
 }
+
