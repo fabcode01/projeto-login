@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* /* Typical Device Breakpoints 
+
+Pequenas Telas: Até 600px
+Celular: 600px até 768px
+Tablet: 768 até 992px
+Desktops: 992px até 1200px
+Grandes telas: acima de 1200px */
+
+@media screen and (min-width: 768px){
+    .login-form, .square-top{
+        width: 700px;
+        
+    }
+}
