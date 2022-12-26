@@ -133,6 +133,7 @@ label > span{
     background-color: rgb(233, 46, 46);
     margin: auto;
     width: 100%;
+    cursor: pointer;
    
 }
 
