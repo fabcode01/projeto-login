@@ -44,6 +44,7 @@ Grandes telas: acima de 1200px */
     }
 
     .login-form{
+        max-width: 800px;
         border-bottom-left-radius: 50px;
     }
 
