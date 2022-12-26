@@ -31,16 +31,18 @@ Grandes telas: acima de 1200px */
         
     }
 
-    p{
-        text-align: justify;
-        font-size: 1.3em;
+    main > p{
+        width: 50%;
+        text-align: center;
         position: relative;
-        left: 100px;
+        left: 80px;
+        
     }
-    h3{
+    main > h3{
+        text-align: center;
         font-size: 1.7em;
         position: relative;
-        left: 30px;
+        left: -10px;
     }
 
     .login-form{
